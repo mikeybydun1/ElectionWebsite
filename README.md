@@ -1,5 +1,5 @@
 # ElectionWebsite
-The project is a website for the israeli elections in 2021, and builed by visual studio 2019 using c# and HTTP. 
+The project is a website for the israeli elections in 2021, and builed by visual studio 2019 using C#, JavaScript and HTTP. 
 
 # How To Run It?
 Open the electionProject.sln file on visual studio. 
