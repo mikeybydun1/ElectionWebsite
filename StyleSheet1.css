@@ -1,0 +1,186 @@
+﻿body
+{
+    background-image: url(https://ak.picdn.net/shutterstock/videos/9537872/thumb/1.jpg);
+    direction: rtl;
+}
+
+.head
+{
+    border: 1px solid darkblue;
+    width: 190px;
+    height: 30px;
+    font-family: 'Varela Round';
+    text-align: center;
+    font-size: 32px;
+    border-spacing: 2px;
+    background-color: lavender;
+}
+table
+{
+    border: 2px solid darkblue;
+    width: 90%;
+    text-align: center;
+    font-size: 32px;
+    background-color: beige;
+    margin: auto;
+}
+
+table, td, th
+{
+    border: 1px solid darkblue;
+    width: 190px;
+    height: 30px;
+    font-family: 'Varela Round';
+    text-align: center;
+    font-size: 32px;
+    border-spacing: 6px;
+    background-color: lavenderblush;
+}
+h1
+{
+    color: darkslateblue;
+    text-align: center;
+    font-family: Assistant;
+    font-size: 43px;
+}
+
+th {
+    background-color: darkgray;
+    color: chocolate;
+    font-family: Arial;
+}
+
+h2
+{
+ text-align: right;
+ margin-right: 55px;
+}
+
+h3
+{
+    font-family: Assistant;
+    font-size: 25px;
+    color: darkblue;
+
+}
+
+input{
+    max-width: 350px;
+}
+p
+{
+ font-family: 'Varela Round';
+ color: darkblue;
+ font-size:20px;
+ text-align: right;
+ width: 90%;
+ margin-right: 450px;
+}
+td {
+    width: auto;
+    border: 5px solid darkblue;
+}
+.err {
+    display: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Varela Round';
+    background-color: cornsilk;
+}
+
+img
+{
+    width: 320px;
+    height: 197px;
+    float: right;
+}
+
+.mpTable {
+    border: 5px solid darkblue;
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.mpTD {
+    border: 5px solid darkblue;
+    width: 33%;
+    vertical-align: top;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 30px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+}
+
+.button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+}
+
+.button:hover span {
+        padding-right: 25px;
+}
+
+.button:hover span:after {
+            opacity: 1;
+            right: 0;
+}
+.tderr {
+    border: none;
+    font-family: 'Varela Round';
+}
+.loginTbl {
+    border: 3px solid darkblue;
+    width: 85%;
+    height: auto;
+    font-family: 'Varela Round';
+    text-align: center;
+    font-size: 32px;
+    border-spacing: 4px;
+    background-color: lavenderblush;
+}
+/*
+input[type=text]
+{
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+*/
+
+
